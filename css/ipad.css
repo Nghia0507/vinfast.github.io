@@ -1,0 +1,51 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    header {
+        height: 70px;
+        width: 100%;
+        padding: 0;
+    }
+    li {
+        display: inline-block;
+        padding: 30px 10px;
+        text-transform: uppercase;
+    }
+    .nav-text {
+        color: #666;
+        list-style: none;
+        text-decoration: none;
+        padding: 0 20px;
+    }
+    .nav-text:hover {
+        cursor: pointer;
+        color: rgba(112, 108, 108, 0.7);
+    }
+    h3 {
+        text-align: center;
+    }
+    #banner {
+        text-align: center;
+        height: 150px;
+        position: absolute;
+        top: 150px;
+        left: 140px;
+        color: red;
+    }
+    #slider {
+        height: 100px;
+        margin: 10px;
+        text-align: center;
+    }
+    div#container {
+        margin: 20px;
+    }
+    .text {
+        background-color: rgb(170, 164, 164);
+    }
+    footer {
+        height:100px;
+        text-align: center;
+        padding-top: 50px;
+        color: rgb(179, 50, 50);
+        background-color: rgb(158, 151, 151);
+    }
+  }

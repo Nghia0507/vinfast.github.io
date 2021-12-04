@@ -1,0 +1,33 @@
+@media only screen and (max-width: 767px) {
+    #header {
+        height: 50px;
+        width: 100%;
+        background-color: rgb(61, 58, 58);
+        padding: 0 10px;
+    }
+    #--nav {
+        display: none
+    }
+    .icon-v {
+        font-size: 40px;
+    }
+    .nav-text:hover {
+        cursor: pointer;
+        color: rgba(112, 108, 108, 0.7);
+    }
+    #banner,
+    #slider {
+        text-align: center;
+    }
+    .text {
+        height: 200px;
+        background-color: rgb(204, 196, 187);
+        text-align: center;
+        font-size: 1em;
+    }
+    div#container {
+        margin: 20px;
+        text-align: center;
+    }
+
+}

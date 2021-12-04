@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Ubuntu', sans-serif;
+}
+.left-nav {
+    float: left;
+}
+.right-nav {
+    float: right;
+}
+img {
+    width: 100% !important;
+    padding: 20px 20px;
+}
+li {
+    display: inline-block;
+    padding: 10px 10px;
+    text-transform: uppercase;
+}
+.nav-text {
+    color: #666;
+    list-style: none;
+    text-decoration: none;
+    padding: 0 20px;
+}
+p,
+h3 {
+    text-align: center;
+}
+main {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+.text {
+    height: 150px;
+    background-color: darkgray;
+}
+.text-3 {
+    text-align: center;
+}
+
+
+
+@media only screen and (min-width: 992px) {
+    #menu {
+        height: auto;
+        width: autoss;
+    }
+    header {
+        height: 70px;
+        background-color: rgb(126, 119, 119);
+        width: 100%;
+        padding: 0;
+    }
+    li {
+        display: inline-block;
+        padding: 30px 10px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    #--nav {
+        display: block;
+    }
+    .right-nav,
+    .left-nav {
+        display: block;
+    }
+    h1 {
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    header {
+        height: 70px;
+        background-color: darkgray;
+        width: 100%;
+        padding: 0;
+    }
+    #--nav {
+        display: block;
+    }
+    li {
+        display: inline-block;
+        padding: 30px 10px;
+        text-transform: uppercase;
+    }
+    .nav-text {
+        color: #666;
+        list-style: none;
+        text-decoration: none;
+        padding: 0 20px;
+    }
+    .nav-text:hover {
+        cursor: pointer;
+        color: rgba(112, 108, 108, 0.7);
+    }
+    h3 {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 767px) {
+    #header {
+        height: 50px;
+        width: 100%;
+        background-color: rgb(61, 58, 58);
+        padding: 0 10px;
+    }
+    #--nav {
+        display: block;
+    }
+    .icon-v {
+        font-size: 40px;
+    }
+    .nav-text:hover {
+        cursor: pointer;
+        color: rgba(112, 108, 108, 0.7);
+    }
+    .text {
+        height: 150px;
+        background-color: cornsilk;
+        text-align: center;
+        font-size: 1em;
+    }
+}
